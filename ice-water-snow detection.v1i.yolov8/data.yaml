@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['clear-road', 'ice-road', 'pothole']
+
+roboflow:
+  workspace: gp-ript3
+  project: ice-water-snow-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gp-ript3/ice-water-snow-detection/dataset/1
